@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_a_domiciles",
+  "info": {
+    "singularName": "service-a-domicile",
+    "pluralName": "service-a-domiciles",
+    "displayName": "Service_a_domicile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Autre": {
+      "type": "text"
+    },
+    "Canaux_prestataire": {
+      "type": "string"
+    },
+    "Frequence": {
+      "type": "string",
+      "required": true
+    },
+    "Type_services": {
+      "type": "string",
+      "required": true
+    },
+    "Budget_service": {
+      "type": "string",
+      "required": true
+    },
+    "Niveau_satisfaction": {
+      "type": "string"
+    },
+    "Duree_service": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

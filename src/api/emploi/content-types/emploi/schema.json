@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emplois",
+  "info": {
+    "singularName": "emploi",
+    "pluralName": "emplois",
+    "displayName": "Emploi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Employeur": {
+      "type": "string"
+    },
+    "Secteur_Metier_Poste": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Situation_professionnelle_actuelle": {
+      "type": "string",
+      "required": true
+    },
+    "Canaux_recherche_emploi": {
+      "type": "string"
+    },
+    "Type_contrat": {
+      "type": "string",
+      "required": true
+    },
+    "Niveau_difficulte": {
+      "type": "string"
+    }
+  }
+}

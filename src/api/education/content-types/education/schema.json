@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "singularName": "education",
+    "pluralName": "educations",
+    "displayName": "Education",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre_enfants_scolarises": {
+      "type": "string",
+      "required": true
+    },
+    "Type_ecole": {
+      "type": "string",
+      "required": true
+    },
+    "Uniforme": {
+      "type": "string",
+      "required": true
+    },
+    "Niveau_satisfaction": {
+      "type": "string"
+    },
+    "Programme": {
+      "type": "string",
+      "required": true
+    },
+    "Budget_scolaire_par_enfant": {
+      "type": "string",
+      "required": true
+    },
+    "Langue_enseignement": {
+      "type": "string",
+      "required": true
+    },
+    "Transport_scolaire": {
+      "type": "string",
+      "required": true
+    },
+    "Niveau_etude": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

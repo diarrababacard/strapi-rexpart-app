@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logements",
+  "info": {
+    "singularName": "logement",
+    "pluralName": "logements",
+    "displayName": "Logement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Zone_geographique_recherche": {
+      "type": "string",
+      "required": true
+    },
+    "Niveau_satisfaction": {
+      "type": "string"
+    },
+    "Canal_recherche_logement": {
+      "type": "string"
+    },
+    "Budget_logement": {
+      "type": "string",
+      "required": true
+    },
+    "Statut": {
+      "type": "string",
+      "required": true
+    },
+    "Nombre_pieces": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

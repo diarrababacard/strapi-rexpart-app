@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_generales",
+  "info": {
+    "singularName": "information-generale",
+    "pluralName": "information-generales",
+    "displayName": "Information_generale",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Pays_accueil": {
+      "type": "string",
+      "required": true
+    },
+    "Pays_provenance": {
+      "type": "string",
+      "required": true
+    },
+    "Nationalite": {
+      "type": "string",
+      "required": true
+    },
+    "Region": {
+      "type": "string",
+      "required": true
+    },
+    "Quartier": {
+      "type": "string"
+    },
+    "Genre": {
+      "type": "string",
+      "required": true
+    },
+    "Age": {
+      "type": "string",
+      "required": true
+    },
+    "Duree_pays_accueil": {
+      "type": "string",
+      "required": true
+    },
+    "Duree_pays_provenance": {
+      "type": "string",
+      "required": true
+    },
+    "Nombre_enfants": {
+      "type": "string",
+      "required": true
+    },
+    "Situation_matrimoniale": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

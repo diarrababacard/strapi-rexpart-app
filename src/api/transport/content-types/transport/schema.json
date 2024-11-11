@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transports",
+  "info": {
+    "singularName": "transport",
+    "pluralName": "transports",
+    "displayName": "Transport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Budget_mensuel_transport": {
+      "type": "string",
+      "required": true
+    },
+    "Niveau_satisfaction": {
+      "type": "string"
+    },
+    "Proprietaire_vehicule": {
+      "type": "string",
+      "required": true
+    },
+    "Besoin_chauffeur_prive": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
